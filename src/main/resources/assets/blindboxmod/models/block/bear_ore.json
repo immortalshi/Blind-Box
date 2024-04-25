@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "blindboxmod:block/bear_ore"
+  }
+}
