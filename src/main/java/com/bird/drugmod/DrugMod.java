@@ -25,11 +25,11 @@ import net.minecraftforge.registries.RegistryObject;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(BlindBoxMod.MOD_ID)
-public class BlindBoxMod
+@Mod(DrugMod.MOD_ID)
+public class DrugMod
 {
     // Define mod id in a common place for everything to reference
-    public static final String MOD_ID = "blindboxmod";
+    public static final String MOD_ID = "drugmod";
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
     // Create a Deferred Register to hold Blocks which will all be registered under the "examplemod" namespace
@@ -42,7 +42,7 @@ public class BlindBoxMod
     // Creates a new BlockItem with the id "examplemod:example_block", combining the namespace and path
     public static final RegistryObject<Item> EXAMPLE_BLOCK_ITEM = ITEMS.register("example_block", () -> new BlockItem(EXAMPLE_BLOCK.get(), new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
 
-    public BlindBoxMod()
+    public DrugMod()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         //物品注册表

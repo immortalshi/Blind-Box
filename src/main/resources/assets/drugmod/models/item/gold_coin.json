@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "blindboxmod:item/gold_coin"
+    "layer0": "drugmod:item/gold_coin"
   }
 }
